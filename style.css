@@ -14,13 +14,13 @@ body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 
 a{
     text-decoration: none;
-    color: #f0faf8;
-    font-size: small;  
+    color: #e5e7eb;
+    font-size: 18px;  
 }
 
 ul{
@@ -47,3 +47,54 @@ ul{
    3. Hero section
    --------------- */
 
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    background: #1f2937;
+
+}
+
+.hero-card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 450px;
+    color: #e5e7eb;
+    gap: 10px;
+    
+}
+
+.hero-header{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hero-text{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.hero-button{
+    background: #3882f6;
+    border:#3882f6;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    width: 150px;
+    
+}
+
+.hero-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background: lightgrey;
+    font-size: 16px;
+    
+}
