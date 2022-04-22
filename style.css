@@ -174,4 +174,31 @@ ul{
     text-align: right;
 }
 
+/* -----------------
+   6. Call to action
+   ----------------- */
 
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3882f6;
+    margin: 64px 64px;
+    padding: 0 32px;
+}
+
+.cta-card{
+    color: #e5e7eb;   
+}
+
+.cta-text{
+    font-size: 12px;
+}
+
+button{
+    background: #3882f6;
+    border-color: white;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
