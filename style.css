@@ -6,7 +6,7 @@
    3. Hero section
    4. information
    5. Quote
-
+   6. Call to action
 */
 
 /* ----------------
@@ -19,8 +19,8 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;   
-   
+    flex-direction: column; 
+
 }
 
 a{
@@ -72,7 +72,7 @@ ul{
     color: #e5e7eb;
     gap: 10px;
     flex: 0 1 500px;
-    
+
 }
 
 .hero-header{
@@ -95,7 +95,7 @@ ul{
     padding: 10px 20px;
     width: 150px;
     margin-bottom: 16px;
-    
+
 }
 
 .hero-img{
@@ -105,7 +105,6 @@ ul{
     flex: 0 1 500px;
     background: lightgrey;
     font-size: 16px;
-    
 }
 
 /* --------------
@@ -116,14 +115,12 @@ ul{
 .information-container{
     display: flex;
     flex-direction: column;
-    
 }
 
 .information-options-container{
     display: flex;
     justify-content: space-around;
     padding: 0 128px;
-
 }
 
 .information-header{
@@ -167,7 +164,6 @@ ul{
     color: #1f2937;
     font-weight: lighter;
     margin: 0;
-
 }
 
 .quote-sayer{
